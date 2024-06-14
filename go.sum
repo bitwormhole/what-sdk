@@ -1,0 +1,14 @@
+github.com/starter-go/afs v0.9.5 h1:nlXQwCzqI0fht6RrQYj+CBCH2dPX2j7HArkEf11Vhjw=
+github.com/starter-go/afs v0.9.5/go.mod h1:Kuwz+TntvRVUYJuHWfR9hkEIcBiIC3ScW9IS/gjJulM=
+github.com/starter-go/application v0.9.26 h1:D5xowoxKjXC2vUSheqCfAeM+oda+2BDaCg22XmyJ3YQ=
+github.com/starter-go/application v0.9.26/go.mod h1:N7WtRDs9tdxU0tPAXqSo0tjyGlUuaB+Bs9reinO5igw=
+github.com/starter-go/base v0.9.11 h1:QG5kcShJSV9cs2KEeqZ8UN9icM/0uPZwPFrh0XUOf+Q=
+github.com/starter-go/base v0.9.11/go.mod h1:MMqPMFzwPHjKyfX0cMmkpAAbeJ0tJupFbI8D+x27fJM=
+github.com/starter-go/configen v0.9.5 h1:KTwueLMQA3Ba70sJddK+hOLEifOI0dTXpPkX/jiBjIo=
+github.com/starter-go/configen v0.9.5/go.mod h1:n3qiv4z1nZ0h4qfcX9Ju8kUMgjuLUkv0EvL6lxQOwtQ=
+github.com/starter-go/pktline v0.0.1 h1:9zCpahYBMW2jdnouTAuLZkUDQyDfvaxzZT0cSdBWlsk=
+github.com/starter-go/pktline v0.0.1/go.mod h1:Cs9dzGPXe1Cj6tm1z/VH+DMdzw9yEoAF+T1tuR6c1ok=
+github.com/starter-go/starter v1.0.10 h1:DtKuUQlnobPFk/S3Rl5kl1vdxeh3wtX2NIosxlGwUjM=
+github.com/starter-go/starter v1.0.10/go.mod h1:mfr0zOFpB4S7jVtBUbra1kdmn00L9pKGooibTBI6VP0=
+github.com/starter-go/vlog v0.9.8 h1:NmVv/lquEmvQ78nRf0C5eiJ0prNByV8o4aMmwBB3isc=
+github.com/starter-go/vlog v0.9.8/go.mod h1:ywWUCfWNTqXrelvO4/3sQ04SCW4ClR3PiN3qpSlXhH0=

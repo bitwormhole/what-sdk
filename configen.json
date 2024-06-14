@@ -1,0 +1,57 @@
+{
+    "configen": {
+        "version": "4",
+        "sources": [
+            {
+                "id": "main",
+                "path": "v1",
+                "r": true
+            },
+            {
+                "id": "benchmark",
+                "path": "src/benchmark/golang",
+                "r": true
+            },
+            {
+                "id": "debug",
+                "path": "src/debug/golang",
+                "r": true
+            },
+            {
+                "id": "test",
+                "path": "src/test/golang",
+                "r": true
+            }
+        ],
+        "destinations": [
+            {
+                "id": "main",
+                "path": "gen/main4whatsdk",
+                "sources": [
+                    "main"
+                ]
+            },
+            {
+                "id": "debug",
+                "path": "gen/debug4whatsdk",
+                "sources": [
+                    "debug"
+                ]
+            },
+            {
+                "id": "benchmark",
+                "path": "gen/benchmark4whatsdk",
+                "sources": [
+                    "benchmark"
+                ]
+            },
+            {
+                "id": "test",
+                "path": "gen/test4whatsdk",
+                "sources": [
+                    "test"
+                ]
+            }
+        ]
+    }
+}
