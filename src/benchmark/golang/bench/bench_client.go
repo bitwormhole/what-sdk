@@ -78,7 +78,7 @@ func (inst *Client) checkProperties() error {
 	e1 := checkIntRange("interval", inst.Interval, 10, 10000)
 	e2 := checkIntRange("request-x", inst.RequestX, 0, 1000)
 	e3 := checkIntRange("response-x", inst.ResponseX, 0, 1000)
-	e4 := checkIntRange("payload-size", inst.PayloadSize, 0, 1500)
+	e4 := checkIntRange("payload-size", inst.PayloadSize, 0, 65536)
 
 	errlist := []error{e1, e2, e3, e4}
 	for _, err := range errlist {
