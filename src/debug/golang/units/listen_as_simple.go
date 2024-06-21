@@ -89,7 +89,7 @@ func (inst *TryListenSimple) run() error {
 	}()
 
 	conn2 := conn.(what.SimpleConnection)
-	buffer := make([]byte, 1024*2)
+	buffer := make([]byte, rxBufferSize)
 
 	for {
 		cb, err := conn2.Read(buffer)

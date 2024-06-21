@@ -110,7 +110,7 @@ func (inst *serverSideTask) run() error {
 	inst.counter.Startup = now
 	inst.counter.Now = now
 
-	buffer := make([]byte, 1024*2)
+	buffer := make([]byte, rxBufferSize)
 
 	for {
 		cb, err := inst.conn.Read(buffer)

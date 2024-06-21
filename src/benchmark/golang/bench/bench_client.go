@@ -232,7 +232,7 @@ func (inst *clientSideTask) sendRequest(p *Pack) error {
 }
 
 func (inst *clientSideTask) pullDownStream() error {
-	buffer := make([]byte, 1024*2)
+	buffer := make([]byte, rxBufferSize)
 	conn := inst.conn
 	for {
 		cb, err := conn.Read(buffer)

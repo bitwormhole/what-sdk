@@ -103,7 +103,7 @@ func (inst *TryConnectAsSimple) run() error {
 }
 
 func (inst *TryConnectAsSimple) pumpRxDataStream(conn what.SimpleConnection) error {
-	buffer := make([]byte, 1024*2)
+	buffer := make([]byte, rxBufferSize)
 	for {
 		cb, err := conn.Read(buffer)
 		if err != nil {
