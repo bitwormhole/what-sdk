@@ -75,7 +75,7 @@ func (inst *Client) checkProperties() error {
 		return fmt.Errorf(f, name, value, min, max)
 	}
 
-	e1 := checkIntRange("interval", inst.Interval, 10, 10000)
+	e1 := checkIntRange("interval", inst.Interval, 1, 10000)
 	e2 := checkIntRange("request-x", inst.RequestX, 0, 1000)
 	e3 := checkIntRange("response-x", inst.ResponseX, 0, 1000)
 	e4 := checkIntRange("payload-size", inst.PayloadSize, 0, 65536)
